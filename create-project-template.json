@@ -1,12 +1,12 @@
 {
-  "name": "{ENVIRONMENT_NAME}-project",
+  "name": "meligb92-project",
   "source": {
     "type": "S3",
     "location": "doa17-application/codebuild.zip"
   },
   "artifacts": {
     "type": "S3",
-    "location": "doa17-{ENVIRONMENT_NAME}",
+    "location": "doa17-meligb92",
     "packaging": "ZIP",
     "name": "WebAppOutputArtifact.zip"
   },
